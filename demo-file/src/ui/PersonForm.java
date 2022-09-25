@@ -40,7 +40,7 @@ public class PersonForm {
 		p.setBirthDate(date);
 			
 		System.out.println("Numero de estudiante: ");
-		p.setNumCarnet(scan.nextInt());
+		p.setNumCarnet(scan.next());
 		
 		return p;
 	}

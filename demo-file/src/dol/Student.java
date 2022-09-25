@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Student extends Person{
 
-	private int NumCarnet;
+	private String NumCarnet;
 	private Date FechaInscripcion;
 	
 	public Student(Date fechaInscripcion) {
@@ -12,11 +12,11 @@ public class Student extends Person{
 		FechaInscripcion = fechaInscripcion;
 	}
 
-	public int getNumCarnet() {
+	public String getNumCarnet() {
 		return NumCarnet;
 	}
 
-	public void setNumCarnet(int NumCarnet) {
+	public void setNumCarnet(String NumCarnet) {
 		this.NumCarnet = NumCarnet;
 	}
 
